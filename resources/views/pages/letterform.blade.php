@@ -7,7 +7,7 @@
 <div class="form-signin">
   <form name="form" action="{{route('article.letter')}}" method="post">
     @csrf
-    <img class="mb-4 image1" src="{{asset('images/logo.jpg')}}" alt="Gawa">
+    <img class="mb-4 image1" src="{{asset('assets\images/logo.jpg')}}" alt="Gawa">
     <input type="text" id="form_letter" name="form_letter" pattern="[a-zA-Z]" title="Saisir uniquement une lettre alphabétique majuscule ou minuscule" required="required" class="form-control" id="inputLetter" placeholder="Saisir une lettre alphabétique de votre choix" />
     <span id="msg"></span> 
     <div>

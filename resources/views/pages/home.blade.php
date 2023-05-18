@@ -9,7 +9,7 @@
       <!-- https://github.com/matteobruni/tsparticles -->
 
       <div class="form-signin-1">
-            <img class="mb-4 image1" src="{{asset('images/logo.jpg')}}" alt="Gawa">
+            <img class="mb-4 image1" src="{{asset('assets\images/logo.jpg')}}" alt="Gawa">
             <h4>Bienvenue sur Gawa,
             <br/>l'outil de génération par <span id="app">nombre</span> <br/>d'article wikipédia à améliorer
             <br/>lié à la Côte d'Ivoire.</h4>

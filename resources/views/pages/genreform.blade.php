@@ -5,7 +5,7 @@
 @section('content')
 
 <div class="form-signin">
-    <img class="mb-4 image1" src="{{asset('images\logo.jpg')}}" alt="Gawa">
+    <img class="mb-4 image1" src="{{asset('assets\images\logo.jpg')}}" alt="Gawa">
     <p>Veuillez cliquer sur le genre de votre choix :</p>
       <hr/>
       <a href="{{ url('listmale') }}" class="btn btn-primary">Homme</a>

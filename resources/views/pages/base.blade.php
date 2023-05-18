@@ -7,16 +7,16 @@
     <title>@yield('title') | Générateur d'Articles Wikipédia à Améliorer (GAWA)</title>
 
       <!-- Bootstrap core CSS -->
-    <link href="{{asset('css\bootstrap.css')}}" rel="stylesheet">
+    <link href="{{asset('assets\css\bootstrap.css')}}" rel="stylesheet">
 
       <!-- Custom styles for this template -->
-    <link href="{{asset('css\main.css')}}" rel="stylesheet">
+    <link href="{{asset('assets\css\main.css')}}" rel="stylesheet">
 
     <!-- Custom styles for the page genre-->
-    <link href="{{asset('css\accordion.css')}}" rel="stylesheet">
+    <link href="{{asset('assets\css\accordion.css')}}" rel="stylesheet">
 
       <!-- Favicon -->
-    <link rel="shortcut icon" href="{{asset('images\favicon.ico')}}">
+    <link rel="shortcut icon" href="{{asset('assets\images\favicon.ico')}}">
 
     <style>
       .bd-placeholder-img {
@@ -70,11 +70,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2.5.0/webcomponents-loader.js"></script>
     <script type="module" src="https://cdn.jsdelivr.net/npm/web-particles@1.1.0/dist/web-particles.min.js"></script>
 
-    <script type="text/javascript" src="{{asset('js\bootstrap.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js\main.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js\accordion.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js\defile.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets\js\bootstrap.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets\js\main.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets\js\accordion.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets\js\defile.js')}}"></script>
     <!-- Chart.js -->
-    <script type="text/javascript" src="{{asset('js\canvasjs.js')}}"></script> 
+    <script type="text/javascript" src="{{asset('assets\js\canvasjs.js')}}"></script> 
 </body>
 </html>
