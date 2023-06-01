@@ -13,12 +13,7 @@ GAWA est un outil de détection et de génération d’article wikipédia à am�
 
 ## Contributor
 
-* [Samuel Guébo](https://github.com/samuelguebo) - Project Supervisor
 * [Paul Bouaffou](https://github.com/paulbouaffou) - Project Lead
-* [Abdoulaye Fofana](https://github.com/abdoul007) - Contributor
-* [Lamagnigui Touré](https://github.com/) - Contributor
-* [Armand Koffi](https://github.com/) - Contributor
-* [Rolande Kouakou](https://github.com/) - Contributor
 
 ## License
 
