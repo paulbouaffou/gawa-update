@@ -17,7 +17,7 @@ Pour déployer et tester l'outil GAWA en local (sur votre ordinateur), veuillez 
 
 ```$ git clone https://github.com/paulbouaffou/gawa-update```
 
-### Les Dépendances
+### Les dépendances
 
 * Installer les dépendances liées au bon fonctionnement de l'outil en local avec Composer
 
@@ -41,3 +41,4 @@ En étant dans le dossier de l'outil via l'invite de commande, veuillez lancer o
 ## Licence
 
 Le projet est open source et disponible sous la [Licence MIT](LICENSE).
+
