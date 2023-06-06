@@ -13,7 +13,7 @@
             <h4>À PROPOS DE GAWA</h4>
             <hr/>
             <p>GAWA (signifiant Générateur d'Article Wikipédia à Améliorer), est une plateforme web de détection, d'enregistrement et de génération d'articles wikipédia à éditer urgemment.
-            Cet outil est gérée par des bénévoles de <a href="https://wikimedia.ci/" title="Wikimedia Côte d'Ivoire">Wikimedia Côte d'Ivoire</a>... (<a href="https://meta.wikimedia.org/wiki/Wikimedia_C%C3%B4te_d%27Ivoire/GAWA" target="_blank" title="En savoir plus">en savoir plus</a>)</p>
+            Cet outil a été développé par des bénévoles de <a href="https://wikimedia.ci/" title="Wikimedia Côte d'Ivoire">Wikimedia Côte d'Ivoire</a>... (<a href="https://meta.wikimedia.org/wiki/Wikimedia_C%C3%B4te_d%27Ivoire/GAWA" target="_blank" title="En savoir plus">en savoir plus</a>)</p>
             <hr/>
             <a href="{{ url('home') }}" class="btn btn-primary">Retour</a>
       </div>

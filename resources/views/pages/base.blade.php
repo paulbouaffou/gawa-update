@@ -60,7 +60,7 @@
       <!-- Footer menu end -->
       <!-- Footer credit start -->
       <div class="credit-wrapper"><div class="creditfooter">
-      Gawa est un outil géré par <a href="https://wikimedia.ci/" title="Wikimedia Côte d'Ivoire">Wikimedia Côte d'Ivoire</a>.
+      Développé par <a href="https://wikimedia.ci/" title="Wikimedia Côte d'Ivoire">Wikimedia Côte d'Ivoire</a> et disponible sur <a href="https://github.com/" title="GitHub">GitHub</a>.
       </div>
       </div>
       <!-- Footer credit end -->
