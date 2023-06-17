@@ -27,16 +27,11 @@ Dans le dossier global ou principal de l'outil ```gawa-update``` et précisement
 
 ### Modifier ses accès
 
-Dans le fichier ```.env``` du dossier principal de l'outil, veuillez modifier vos accès à la base de données sur PHPMYADMIN. Par défaut le nom de la base de données est : ```gawadb```. Mais vous pourriez le modifier en vous assurant que cela ne crée un bogue. Aussi vous devez obligatoirement changer le nom d'utilisateur (username ou login) et le mot de passe (password).
+Copiez le fichier ```.env.example``` et renommez-le en `.env`. Ajustez les variables d'environement comme nécessaire. 
 
 ### Lancer l'outil en local
 
 En étant dans le dossier de l'outil via l'invite de commande, veuillez lancer ou tester l'outil avec la commande : ```$ php artisan serve```
-
-
-## Contributeur
-
-* [Paul Bouaffou](https://github.com/paulbouaffou) - Chef du projet
 
 ## Licence
 

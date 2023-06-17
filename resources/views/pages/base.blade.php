@@ -60,7 +60,7 @@
       <!-- Footer menu end -->
       <!-- Footer credit start -->
       <div class="credit-wrapper"><div class="creditfooter">
-      Développé par <a href="https://wikimedia.ci/" title="Wikimedia Côte d'Ivoire">Wikimedia Côte d'Ivoire</a> et disponible sur <a href="https://github.com/" title="GitHub">GitHub</a>.
+      Développé par <a href="https://wikimedia.ci/" title="Wikimedia Côte d'Ivoire">Wikimedia Côte d'Ivoire</a> et disponible sur <a href="https://github.com/paulbouaffou/gawa-update" title="GitHub">GitHub</a>.
       </div>
       </div>
       <!-- Footer credit end -->
@@ -75,6 +75,6 @@
     <script type="text/javascript" src="{{asset('assets\js\accordion.js')}}"></script>
     <script type="text/javascript" src="{{asset('assets\js\defile.js')}}"></script>
     <!-- Chart.js -->
-    <script type="text/javascript" src="{{asset('assets\js\canvasjs.js')}}"></script> 
+    <script type="text/javascript" src="{{asset('assets\js\canvasjs.js')}}"></script>
 </body>
 </html>
