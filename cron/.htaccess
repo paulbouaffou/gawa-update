@@ -1,0 +1,7 @@
+# Désactiver l'affichage des erreurs PHP dans le navigateur (optionnel)
+php_flag display_errors off
+
+# Désactiver l'accès direct aux scripts PH
+<Files ~ "^.*">
+  Deny from all
+</Files>
