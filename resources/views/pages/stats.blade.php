@@ -81,6 +81,8 @@ chart.render();
     <br>
     <br>
     <br>
+    <br>
+    <br>
 </div>
 
 @endsection

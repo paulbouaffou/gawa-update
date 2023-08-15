@@ -52,7 +52,7 @@
               <li><a href="{{ url('pagebutton') }}" rel="nofollow" title="Générer des articles par nombre, lettre ou genre">Générer</a></li>
               <li><a href="{{ url('stats') }}" rel="nofollow" title="Statistiques">Statistiques</a></li>
               <li><a href="{{ url('about') }}" rel="nofollow" title="À propos">À propos</a></li>
-              <li><a href="https://wikimedia.ci/contact/" rel="nofollow" title="Contact">Contact</a></li>
+              <li><a href="https://wikimedia.ci/contact/" target="_blank" rel="nofollow" title="Contact">Contact</a></li>
             </ul>
         </div>
       </div></div>

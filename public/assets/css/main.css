@@ -114,6 +114,12 @@ canvas {
 }
 
 
+/* -----Tableau------*/
+
+.table-responsive {
+  overflow-x: auto;
+}
+
 
 /* -----Image------*/
 
@@ -197,6 +203,8 @@ a{text-decoration: none;  }
 
 /* -------------------------- REDIMENSIONNEMENT POUR LA VERSION MOBILE---------------------------*/
 
+/* ------------ Redimensionnement pour la version mobile en portrait ------------*/ 
+
  @media (max-width: 768px) {
       
   /* ------------ Redimensionnement du logotype pour la version mobile en portrait ------------*/  
@@ -253,6 +261,10 @@ a{text-decoration: none;  }
     max-width: 100%;
   }
 
+  .table-responsive {
+        width: 100%; /* Utiliser toute la largeur de l'écran */
+    }
+
 }
 
 /* Responsive columns */
@@ -263,4 +275,13 @@ a{text-decoration: none;  }
     display: block;
     margin-bottom: 10px;
   }
+}
+
+
+/* ------------ Redimensionnement pour la version mobile en paysage ------------*/ 
+
+/* Styles pour les écrans en format paysage (horizontal) */
+@media screen and (min-width: 768px) {
+    
+    }
 }

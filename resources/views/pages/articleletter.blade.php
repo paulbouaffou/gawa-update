@@ -16,7 +16,7 @@
     @endif
     wikipédia à améliorer urgemment lié à la Côte d'Ivoire, commerçant par la lettre <strong>{{$letter}}</strong>.
   </div>
-    <div id="results-table">
+    <div id="results-table" style="overflow-x: auto;">
      <table class="table">
       <thead class="thead-light">
         <tr>

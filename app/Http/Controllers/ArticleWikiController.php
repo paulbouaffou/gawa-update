@@ -177,7 +177,8 @@ class ArticleWikiController extends Controller
         ]);
 
         // Récupérer des données de la données de la base de données en fonction de la lettre saisie
-        $letter = $request->form_letter;
+        $letter_initial = $request->form_letter;
+        $letter = strtoupper($letter_initial);
         $article_wikis = ArticleWiki::where('page', 'like', $letter . '%')->get();
 
         // Afficher les données récupérées
