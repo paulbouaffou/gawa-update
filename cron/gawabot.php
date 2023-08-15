@@ -16,11 +16,13 @@
 require_once 'config.php';
 
 try {
+
    // Effacer la base de données, supprimer les anciennes entrées pour recommencer
    $bdd = new PDO($db_connection, $username, $password);
 } catch(Exception $e) {
    die('Erreur : '.$e->getMessage());
 }
+
 
 // Vérifier ce qui est déjà dans la base de données
 $req = $bdd->prepare('SELECT COUNT(*) as count FROM article_wikis');
@@ -44,9 +46,10 @@ $response = json_decode(file_get_contents($url_base), true);
 
 try {
    $results  = $response['*'][0]['a']['*'];
+
    echo count($results) . " articles à améliorer \n";      
 
-   // Parcourez les résultats et enregistrez-les dans la base de données pour une meilleure mise en cache
+   // Parcourez les résultats et enregistrez-les dans la base de données pour une meilleure mise en cache     
    foreach ($results as $result) {
 
       $page_wiki = $result['title'];
@@ -59,11 +62,7 @@ try {
    }
 }
 catch(Exception $e) {
+
    // Erreur de sortie
    echo "Le programme est en maintenance. Désolé pour les ennuis !";
-}
-
-
-
-
-      
+} 
