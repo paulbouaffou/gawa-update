@@ -38,7 +38,7 @@ if ($row['count'] > 0) {
 }
 
 // Obtenez le résultat de Petscan en tant que JSON et analysez-le en tant que PHP Array
-$url_base = "https://petscan.wmflabs.org/?language=fr&project=wikipedia&format=json&categories=Portail%3AC%C3%B4te+d%27Ivoire%2FArticles+li%C3%A9s%0D%0A&ns=0&depth=0&wpiu=all&wikidata%5Fprop%5Fitem%5Fuse=P21%2CQ6581072&wikidata%5Fitem=no&project=wikipedia&templates_any=M%C3%A9ta+bandeau+d%27avertissement&interface_language=fr&doit=";
+$url_base = "https://petscan.wmflabs.org/?language=fr&project=wikipedia&format=json&categories=Portail%3AC%C3%B4te+d%27Ivoire%2FArticles+li%C3%A9s%0D%0A&ns=0&depth=0&wpiu=all&wikidata%5Fprop%5Fitem%5Fuse=P21%2CQ6581072&wikidata%5Fitem=no&project=wikipedia&templates_any=M%C3%A9ta+bandeau+d%27avertissement&doit=&interface_language=fr";
 
 $response = json_decode(file_get_contents($url_base), true);
 
