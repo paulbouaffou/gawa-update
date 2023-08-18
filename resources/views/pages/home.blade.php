@@ -11,8 +11,8 @@
       <div class="form-signin-1">
             <img class="mb-4 image1" src="{{asset('assets\images/logo.jpg')}}" alt="Gawa">
             <h4>Bienvenue sur Gawa,
-            <br/>l'outil de génération par <span id="app">nombre</span> <br/>d'article wikipédia à améliorer
-            <br/>lié à la Côte d'Ivoire.</h4>
+            <br/>l'outil de génération par <span id="app">nombre</span> <br/>d'articles wikipédia à améliorer
+            <br/>liés à la Côte d'Ivoire.</h4>
             <hr/>
             <a href="{{url('pagebutton')}}" class="btn btn-primary">Générer</a>
       </div>
