@@ -16,4 +16,24 @@
   </form>
 </div>
 
+<script>
+      const inputElement = document.getElementById('form_number');
+
+    function updatePlaceholder() {
+        const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+        
+        if (viewportWidth <= 768) {
+            inputElement.placeholder = "Saisir un nombre ≤ {{ $count }}";
+        } else {
+            inputElement.placeholder = "Saisir un nombre entier inférieur ou égal à {{ $count }}";
+        }
+    }
+
+    // Appel initial pour configurer le placeholder en fonction de la largeur de l'écran
+    updatePlaceholder();
+
+    // Mettre à jour le placeholder lors du redimensionnement de la fenêtre
+    window.addEventListener('resize', updatePlaceholder);
+</script>
+
 @endsection

@@ -16,4 +16,25 @@
   </form>
 </div>
 
+<script>
+      const inputElement = document.getElementById('form_letter');
+
+    function updatePlaceholder() {
+        const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+        
+        if (viewportWidth <= 768) {
+            inputElement.placeholder = "Saisir une lettre alphabétique...";
+        } else {
+            inputElement.placeholder = "Saisir une lettre alphabétique de votre choix";
+        }
+    }
+
+    // Appel initial pour configurer le placeholder en fonction de la largeur de l'écran
+    updatePlaceholder();
+
+    // Mettre à jour le placeholder lors du redimensionnement de la fenêtre
+    window.addEventListener('resize', updatePlaceholder);
+</script>
+
+
 @endsection 
