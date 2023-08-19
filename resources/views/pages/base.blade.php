@@ -12,7 +12,7 @@
       <!-- Custom styles for this template -->
     <link href="{{asset('assets\css\main.css')}}" rel="stylesheet">
 
-    <!-- Custom styles for the page genre-->
+    <!-- Custom styles for the page genre -->
     <link href="{{asset('assets\css\accordion.css')}}" rel="stylesheet">
 
       <!-- Favicon -->
